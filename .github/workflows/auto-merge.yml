@@ -9,7 +9,7 @@ on:
 jobs:
   auto-merge:
     runs-on: ubuntu-latest
-    if: ${{ github.actor == 'didhd' || contains(github.event.pull_request.title, 'update URL') }}
+    if: ${{ github.actor == 'didhd' && contains(github.event.pull_request.title, 'update URL') }}
     steps:
       - name: Auto approve and merge PR
         run: |
