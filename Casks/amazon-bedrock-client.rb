@@ -1,6 +1,6 @@
 cask "amazon-bedrock-client" do
   version "1.3.4"
-  sha256 "REPLACE_WITH_ACTUAL_SHA256"  # 실제 DMG 파일의 SHA256 해시로 교체
+  sha256 "54e6202f1bf7ea4088e4169af71160e53a4a23078ab329ea056acb1ac699400f"
 
   url "https://github.com/aws-samples/amazon-bedrock-client-for-mac/releases/download/v#{version}/Amazon.Bedrock.Client.for.Mac.dmg"
   name "Amazon Bedrock Client"
