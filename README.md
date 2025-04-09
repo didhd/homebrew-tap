@@ -9,7 +9,7 @@ This repository contains Homebrew formulae for installing Amazon Bedrock Client 
 brew tap didhd/tap
 
 # Install Amazon Bedrock Client
-brew install amazon-bedrock-client
+brew install amazon-bedrock-client --no-quarantine
 ```
 
 ## Available Casks
