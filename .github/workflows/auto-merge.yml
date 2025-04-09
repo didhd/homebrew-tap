@@ -1,10 +1,10 @@
 name: Auto Merge PRs
 
 on:
-  pull_request_target:
+  pull_request:  # pull_request_target에서 pull_request로 변경
     types: [opened, synchronize, reopened]
     paths:
-      - '**.rb'  # Homebrew formula 파일만 대상으로 설정
+      - '**.rb'
 
 jobs:
   auto-merge:
