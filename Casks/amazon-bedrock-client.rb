@@ -9,7 +9,7 @@ cask "amazon-bedrock-client" do
 
   app "Amazon Bedrock.app"
   
-  quarantine: false
+  quarantine false
 
   zap trash: [
     "~/Library/Application Support/Amazon Bedrock Client",
