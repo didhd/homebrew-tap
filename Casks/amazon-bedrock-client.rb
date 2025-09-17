@@ -1,8 +1,8 @@
 cask "amazon-bedrock-client" do
-  version "1.3.13"
-  sha256 "37954edaeb6add308b230b71e2af81f1adbcf315eee6894e3e35a9f3a5485160"
+  version "1.3.14"
+  sha256 "d4f6e66f8c79370e17c1fa0273aa7febcf7483e8e53bfad830a77cfd8c9a5bcb"
 
-  url "https://github.com/aws-samples/amazon-bedrock-client-for-mac/releases/download/v1.3.13/Amazon.Bedrock.Client.for.Mac.dmg"
+  url "https://github.com/aws-samples/amazon-bedrock-client-for-mac/releases/download/v1.3.14/Amazon.Bedrock.Client.for.Mac.dmg"
   name "Amazon Bedrock Client"
   desc "Client application for Amazon Bedrock generative AI models"
   homepage "https://github.com/aws-samples/amazon-bedrock-client-for-mac"
